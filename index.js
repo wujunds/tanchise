@@ -24,7 +24,7 @@
   Food.prototype.render = function (map) {
     //产生新的食物之前要删掉原来的食物
     removeFood(map);
-
+   
 
     //随机产生一个食物的坐标x,y。
     this.x = Math.floor(Math.random() * map.offsetWidth/this.width) * this.width;
