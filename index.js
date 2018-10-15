@@ -7,7 +7,7 @@
 
   //声明一个数组，用来保存食物对应的div。
   var list = [];
-
+  let num;
   //创建食物，食物有宽高、定位的位置xy,背景色， 所以他是一个对象。
   //1.食物构造函数
   function Food(x,y,width,height,bgc){
