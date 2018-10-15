@@ -3,7 +3,7 @@
  */
 //所有的关于食物的代码就写在这个文件中。
 (function (window) {
-
+  var num;
   //声明一个数组，用来保存食物对应的div。
   var list = [];
 
